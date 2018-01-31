@@ -12,10 +12,8 @@ server.use(bodyParser.urlencoded({extended: true}))
 //em seguida passa pelo json, fazendo uma interpretação 
 server.use(bodyParser.json())
 
-
-
 server.listen(port, function(){
-   console.log('BACKEND is running on port ${port}.')
+   console.log(`BACKEND is running on port ${port}.`)
 })
 
 module.exports = server
