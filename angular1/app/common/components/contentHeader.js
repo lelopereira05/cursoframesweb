@@ -7,6 +7,6 @@ angular.module('primeiraApp').component('contentHeader',
     template:`
     <section class="content-header">
     <h1> {{$ctrl.name}} <small>{{$ctrl.small}}</small></h1>
-</section>
+    </section>
     `
 })
