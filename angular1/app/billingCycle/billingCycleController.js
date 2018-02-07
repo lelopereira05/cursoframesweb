@@ -10,7 +10,7 @@
         const url = 'http://localhost:3003/api/billingCycles'
         vm.refresh = function(){
             $http.get(url).then(function(response){
-                vm.billingCycle = {}
+                vm.billingCycle = {credits:[{}], debts:[{}]}
                 vm.billingCycles = response.data
                 tabs.show(vm, { tabList : true, tabCreate: true })
             })
