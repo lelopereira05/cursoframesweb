@@ -14,13 +14,13 @@
             }
         }
 
-        function addSucess(msgs) {
-            addMsg(msgs, 'Sucesso', 'sucess')
+        function addSuccess(msgs) {
+            addMsg(msgs, 'Sucesso', 'success')
         }
     
         function addError(msgs){
             addMsg(msgs, 'Erro', 'error')
         }
-        return { addSucess, addError }  
+        return { addSuccess, addError }  
     }
 })()
